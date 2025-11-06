@@ -12,8 +12,8 @@ export default function Header() {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link href="/" className="flex-shrink-0">
-            <h1 className="text-3xl font-serif font-bold text-gray-900 tracking-tight">
-              STYLEVOGUE
+            <h1 className="text-2xl md:text-3xl font-serif font-bold text-gray-900 tracking-tight">
+              yourfashionstyleguide
             </h1>
           </Link>
 

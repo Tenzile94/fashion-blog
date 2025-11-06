@@ -24,11 +24,11 @@ export default function Home() {
             <section className="mt-16 mb-8">
               <div className="bg-gradient-to-br from-gray-50 to-gray-100 rounded-lg p-8 md:p-12 border border-gray-200">
                 <h2 className="text-3xl md:text-4xl font-serif font-bold text-gray-900 mb-6 text-center">
-                  Welcome to StyleVogue
+                  Welcome to Your Fashion Style Guide
                 </h2>
                 <div className="max-w-3xl mx-auto space-y-4 text-gray-700 leading-relaxed">
                   <p className="text-lg">
-                    At StyleVogue, we believe fashion is more than just clothing—it&apos;s a form of self-expression, creativity, and confidence. Our mission is to inspire and educate fashion enthusiasts with practical tips, trend insights, and timeless style advice.
+                    At Your Fashion Style Guide, we believe fashion is more than just clothing—it&apos;s a form of self-expression, creativity, and confidence. Our mission is to inspire and educate fashion enthusiasts with practical tips, trend insights, and timeless style advice.
                   </p>
                   <p>
                     Whether you&apos;re looking to build a minimalist wardrobe, master the art of accessorizing, or discover sustainable fashion practices, we&apos;re here to guide you on your style journey. Our carefully curated content covers everything from wardrobe essentials to the latest fashion trends, helping you create looks that reflect your unique personality.
@@ -54,7 +54,7 @@ export default function Home() {
       <footer className="border-t border-gray-200 mt-16 py-8">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center text-sm text-gray-600">
-            <p>&copy; 2025 StyleVogue. All rights reserved.</p>
+            <p>&copy; 2025 Your Fashion Style Guide. All rights reserved.</p>
           </div>
         </div>
       </footer>

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "StyleVogue - Fashion Blog",
+  title: "Your Fashion Style Guide - Fashion Blog",
   description: "Discover the latest trends, fashion tips, and style inspiration",
 };
 

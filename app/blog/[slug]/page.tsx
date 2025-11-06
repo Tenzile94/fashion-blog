@@ -324,7 +324,7 @@ export default function BlogPost({ params }: { params: { slug: string } }) {
       <footer className="border-t border-gray-200 mt-16 py-8">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center text-sm text-gray-600">
-            <p>&copy; 2025 StyleVogue. All rights reserved.</p>
+            <p>&copy; 2025 Your Fashion Style Guide. All rights reserved.</p>
           </div>
         </div>
       </footer>
