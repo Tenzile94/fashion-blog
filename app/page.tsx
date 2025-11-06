@@ -28,16 +28,16 @@ export default function Home() {
                 </h2>
                 <div className="max-w-3xl mx-auto space-y-4 text-gray-700 leading-relaxed">
                   <p className="text-lg">
-                    At StyleVogue, we believe fashion is more than just clothing—it's a form of self-expression, creativity, and confidence. Our mission is to inspire and educate fashion enthusiasts with practical tips, trend insights, and timeless style advice.
+                    At StyleVogue, we believe fashion is more than just clothing—it&apos;s a form of self-expression, creativity, and confidence. Our mission is to inspire and educate fashion enthusiasts with practical tips, trend insights, and timeless style advice.
                   </p>
                   <p>
-                    Whether you're looking to build a minimalist wardrobe, master the art of accessorizing, or discover sustainable fashion practices, we're here to guide you on your style journey. Our carefully curated content covers everything from wardrobe essentials to the latest fashion trends, helping you create looks that reflect your unique personality.
+                    Whether you&apos;re looking to build a minimalist wardrobe, master the art of accessorizing, or discover sustainable fashion practices, we&apos;re here to guide you on your style journey. Our carefully curated content covers everything from wardrobe essentials to the latest fashion trends, helping you create looks that reflect your unique personality.
                   </p>
                   <p>
                     Join our community of fashion lovers who value quality over quantity, sustainability over fast fashion, and personal style over fleeting trends. Explore our blog posts, follow our daily fashion tips, and discover how to make fashion work for you, not the other way around.
                   </p>
                   <p className="font-medium text-gray-900">
-                    Remember: Great style isn't about following every trend—it's about finding what makes you feel confident, comfortable, and authentically yourself.
+                    Remember: Great style isn&apos;t about following every trend—it&apos;s about finding what makes you feel confident, comfortable, and authentically yourself.
                   </p>
                 </div>
               </div>

@@ -31,7 +31,7 @@ export default function About() {
               style advice that helps everyone build a wardrobe that reflects their unique personality and lifestyle.
             </p>
             <p className="text-gray-700 mb-4 leading-relaxed">
-              We're committed to promoting sustainable fashion practices, quality over quantity, and helping our 
+              We&apos;re committed to promoting sustainable fashion practices, quality over quantity, and helping our 
               readers develop a timeless sense of style that transcends fleeting trends.
             </p>
           </section>
@@ -73,7 +73,7 @@ export default function About() {
           <section className="mb-8">
             <h2 className="text-2xl font-serif font-bold text-gray-900 mb-4">Our Philosophy</h2>
             <p className="text-gray-700 mb-4 leading-relaxed">
-              StyleVogue is built on the belief that great fashion isn't about following every trend or owning 
+              StyleVogue is built on the belief that great fashion isn&apos;t about following every trend or owning 
               the most expensive pieces. Instead, we focus on helping you develop a personal style that makes 
               you feel confident, comfortable, and authentically yourself.
             </p>
@@ -87,8 +87,8 @@ export default function About() {
           <section className="bg-gray-50 p-6 rounded-lg border border-gray-200">
             <h2 className="text-2xl font-serif font-bold text-gray-900 mb-4">Join Our Community</h2>
             <p className="text-gray-700 leading-relaxed">
-              We're constantly updating our blog with fresh content, new style guides, and the latest fashion 
-              insights. Whether you're just starting your style journey or looking to refine your existing 
+              We&apos;re constantly updating our blog with fresh content, new style guides, and the latest fashion 
+              insights. Whether you&apos;re just starting your style journey or looking to refine your existing 
               wardrobe, StyleVogue is here to support you every step of the way.
             </p>
             <p className="text-gray-700 mt-4 leading-relaxed">
