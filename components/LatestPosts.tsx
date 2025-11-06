@@ -4,62 +4,62 @@ import Image from 'next/image';
 const latestPosts = [
   {
     id: 1,
-    title: "Essential handbags every woman should own",
-    excerpt: "Discover the timeless handbag styles that form the foundation of a versatile and stylish collection.",
+    title: "Sacs à main essentiels que chaque femme devrait posséder",
+    excerpt: "Découvrez les styles de sacs à main intemporels qui forment la base d'une collection polyvalente et élégante.",
     image: "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=600&h=400&fit=crop",
-    date: "FEB 18, 2025",
+    date: "18 FÉV 2025",
     author: "Jessica Parker",
-    category: "ACCESSORIES",
+    category: "ACCESSOIRES",
     slug: "essential-handbags-every-woman"
   },
   {
     id: 2,
-    title: "Statement jewelry: How to style bold pieces",
-    excerpt: "Learn the art of wearing statement jewelry with confidence and creating balanced, eye-catching looks.",
+    title: "Bijoux statement : Comment styliser des pièces audacieuses",
+    excerpt: "Apprenez l'art de porter des bijoux statement avec confiance et de créer des looks équilibrés et accrocheurs.",
     image: "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=600&h=400&fit=crop",
-    date: "FEB 16, 2025",
+    date: "16 FÉV 2025",
     author: "Isabella Martinez",
-    category: "ACCESSORIES",
+    category: "ACCESSOIRES",
     slug: "statement-jewelry-styling-guide"
   },
   {
     id: 3,
-    title: "Belts and shoes: The complete coordination guide",
-    excerpt: "Master the art of coordinating belts and shoes to create polished, cohesive outfits every time.",
+    title: "Ceintures et chaussures : Le guide complet de coordination",
+    excerpt: "Maîtrisez l'art de coordonner les ceintures et les chaussures pour créer des tenues polies et cohérentes à chaque fois.",
     image: "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=600&h=400&fit=crop",
-    date: "FEB 14, 2025",
+    date: "14 FÉV 2025",
     author: "Olivia Chen",
-    category: "ACCESSORIES",
+    category: "ACCESSOIRES",
     slug: "belts-shoes-complete-guide"
   },
   {
     id: 4,
-    title: "Minimalist wardrobe essentials for every season",
-    excerpt: "Discover the key pieces that will transform your closet into a versatile, timeless collection that works year-round.",
+    title: "Essentiels de garde-robe minimaliste pour chaque saison",
+    excerpt: "Découvrez les pièces clés qui transformeront votre garde-robe en une collection polyvalente et intemporelle qui fonctionne toute l'année.",
     image: "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=600&h=400&fit=crop",
-    date: "FEB 15, 2025",
+    date: "15 FÉV 2025",
     author: "Alexandra Rose",
-    category: "FASHION",
+    category: "MODE",
     slug: "minimalist-wardrobe-essentials"
   },
   {
     id: 5,
-    title: "Color psychology in fashion: What your wardrobe says about you",
-    excerpt: "Explore how different colors can influence your mood and the message you send through your style choices.",
+    title: "Psychologie des couleurs dans la mode : Ce que votre garde-robe dit de vous",
+    excerpt: "Explorez comment différentes couleurs peuvent influencer votre humeur et le message que vous envoyez à travers vos choix de style.",
     image: "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=600&h=400&fit=crop",
-    date: "FEB 13, 2025",
+    date: "13 FÉV 2025",
     author: "Michael Chen",
     category: "STYLE",
     slug: "color-psychology-fashion"
   },
   {
     id: 6,
-    title: "Vintage finds: How to shop second-hand like a pro",
-    excerpt: "Learn expert tips for finding high-quality vintage pieces and building a sustainable wardrobe that stands out.",
+    title: "Trouvailles vintage : Comment acheter d'occasion comme un pro",
+    excerpt: "Apprenez des conseils d'experts pour trouver des pièces vintage de qualité et construire une garde-robe durable qui se démarque.",
     image: "https://images.unsplash.com/photo-1483985988355-763728e1935b?w=600&h=400&fit=crop",
-    date: "FEB 11, 2025",
+    date: "11 FÉV 2025",
     author: "Sophie Martinez",
-    category: "CLOTHING",
+    category: "VÊTEMENTS",
     slug: "vintage-finds-second-hand"
   }
 ];
@@ -68,7 +68,7 @@ export default function LatestPosts() {
   return (
     <section className="mt-12">
       <h2 className="text-2xl md:text-3xl font-serif font-bold text-gray-900 mb-8 uppercase tracking-wide">
-        Latest Posts
+        Derniers Articles
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {latestPosts.map((post) => (
@@ -94,7 +94,7 @@ export default function LatestPosts() {
                 {post.excerpt}
               </p>
               <p className="text-xs text-gray-500 uppercase tracking-wide">
-                {post.date} | BY {post.author.toUpperCase()}
+                {post.date} | PAR {post.author.toUpperCase()}
               </p>
             </Link>
           </article>
@@ -103,4 +103,3 @@ export default function LatestPosts() {
     </section>
   );
 }
-

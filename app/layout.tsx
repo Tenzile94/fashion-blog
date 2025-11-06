@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Your Fashion Style Guide - Fashion Blog",
-  description: "Discover the latest trends, fashion tips, and style inspiration",
+  title: "Votre Guide de Style Mode - Blog Mode",
+  description: "Découvrez les dernières tendances, conseils mode et inspiration style",
 };
 
 export default function RootLayout({

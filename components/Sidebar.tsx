@@ -4,37 +4,37 @@ import Image from 'next/image';
 const popularPosts = [
   {
     id: 1,
-    title: "Essential handbags every woman should own",
+    title: "Sacs à main essentiels que chaque femme devrait posséder",
     image: "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400&h=300&fit=crop",
     slug: "essential-handbags-every-woman"
   },
   {
     id: 2,
-    title: "Statement jewelry: How to style bold pieces",
+    title: "Bijoux statement : Comment styliser des pièces audacieuses",
     image: "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=400&h=300&fit=crop",
     slug: "statement-jewelry-styling-guide"
   },
   {
     id: 3,
-    title: "How to unlock creativity & make something useful?",
+    title: "Comment libérer la créativité et créer quelque chose d'utile ?",
     image: "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=400&h=300&fit=crop",
     slug: "unlock-creativity-fashion"
   },
   {
     id: 4,
-    title: "Minimalist wardrobe essentials for every season",
+    title: "Essentiels de garde-robe minimaliste pour chaque saison",
     image: "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=400&h=300&fit=crop",
     slug: "minimalist-wardrobe-essentials"
   },
   {
     id: 5,
-    title: "Belts and shoes: The complete coordination guide",
+    title: "Ceintures et chaussures : Le guide complet de coordination",
     image: "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=400&h=300&fit=crop",
     slug: "belts-shoes-complete-guide"
   },
   {
     id: 6,
-    title: "The art of mixing patterns and textures",
+    title: "L'art de mélanger les motifs et les textures",
     image: "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=400&h=300&fit=crop",
     slug: "mixing-patterns-textures"
   }
@@ -43,13 +43,13 @@ const popularPosts = [
 const topVideos = [
   {
     id: 1,
-    title: "Essential handbags every woman should own",
+    title: "Sacs à main essentiels que chaque femme devrait posséder",
     image: "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400&h=300&fit=crop",
     slug: "essential-handbags-every-woman"
   },
   {
     id: 2,
-    title: "Statement jewelry styling guide",
+    title: "Guide de stylisation des bijoux statement",
     image: "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=400&h=300&fit=crop",
     slug: "statement-jewelry-styling-guide"
   }
@@ -58,50 +58,50 @@ const topVideos = [
 const dailyTips = [
   {
     id: 1,
-    tip: "Layer a lightweight cardigan over your outfit for easy temperature control throughout the day.",
-    category: "Styling"
+    tip: "Superposez un cardigan léger sur votre tenue pour un contrôle facile de la température tout au long de la journée.",
+    category: "Stylisme"
   },
   {
     id: 2,
-    tip: "Accessorize with a statement belt to define your waist and add structure to oversized pieces.",
-    category: "Accessories"
+    tip: "Accessoirisez avec une ceinture statement pour définir votre taille et ajouter de la structure aux pièces oversize.",
+    category: "Accessoires"
   },
   {
     id: 3,
-    tip: "Invest in a quality white button-down shirt - it's versatile enough for work and weekend looks.",
-    category: "Wardrobe"
+    tip: "Investissez dans une chemise blanche de qualité - elle est assez polyvalente pour le travail et les looks du week-end.",
+    category: "Garde-robe"
   },
   {
     id: 4,
-    tip: "Roll up your sleeves to add a casual, effortless touch to any formal outfit.",
-    category: "Styling"
+    tip: "Relevez vos manches pour ajouter une touche décontractée et décontractée à toute tenue formelle.",
+    category: "Stylisme"
   },
   {
     id: 5,
-    tip: "Choose neutral colors as your base palette and add pops of color with accessories or one statement piece.",
-    category: "Color"
+    tip: "Choisissez des couleurs neutres comme palette de base et ajoutez des touches de couleur avec des accessoires ou une pièce statement.",
+    category: "Couleur"
   }
 ];
 
 const trendingTopics = [
   {
     id: 1,
-    topic: "Sustainable fashion: The future of style",
+    topic: "Mode durable : L'avenir du style",
     slug: "sustainable-fashion-future"
   },
   {
     id: 2,
-    topic: "Color psychology in fashion",
+    topic: "Psychologie des couleurs dans la mode",
     slug: "color-psychology-fashion"
   },
   {
     id: 3,
-    topic: "Vintage finds: How to shop second-hand like a pro",
+    topic: "Trouvailles vintage : Comment acheter d'occasion comme un pro",
     slug: "vintage-finds-second-hand"
   },
   {
     id: 4,
-    topic: "Minimalist wardrobe essentials",
+    topic: "Essentiels de garde-robe minimaliste",
     slug: "minimalist-wardrobe-essentials"
   }
 ];
@@ -112,7 +112,7 @@ export default function Sidebar() {
       {/* Popular Posts */}
       <section>
         <h2 className="text-xl font-serif font-bold text-gray-900 mb-4 uppercase tracking-wide">
-          Popular Posts
+          Articles Populaires
         </h2>
         <div className="space-y-4">
           {popularPosts.map((post) => (
@@ -138,7 +138,7 @@ export default function Sidebar() {
       {/* Featured Posts */}
       <section>
         <h2 className="text-xl font-serif font-bold text-gray-900 mb-4 uppercase tracking-wide">
-          Featured Posts
+          Articles Vedettes
         </h2>
         <div className="space-y-4">
           {topVideos.map((video) => (
@@ -167,7 +167,7 @@ export default function Sidebar() {
       {/* Daily Fashion Tips */}
       <section className="bg-gradient-to-br from-amber-50 to-orange-50 p-6 rounded-lg border border-amber-100">
         <h2 className="text-xl font-serif font-bold text-gray-900 mb-4 uppercase tracking-wide">
-          Daily Fashion Tips
+          Conseils Mode Quotidiens
         </h2>
         <div className="space-y-4">
           {dailyTips.map((tip) => (
@@ -186,55 +186,31 @@ export default function Sidebar() {
       {/* Trending Wears or Clothes in Daily 2025 */}
       <section className="bg-gradient-to-br from-purple-50 to-pink-50 p-6 rounded-lg border border-purple-100">
         <h2 className="text-xl font-serif font-bold text-gray-900 mb-4 uppercase tracking-wide">
-          Trending Daily Wears 2025
+          Tendances Quotidiennes 2025
         </h2>
         <div className="space-y-3">
           <div>
-            <h3 className="text-sm font-semibold text-gray-900 mb-1">Oversized Blazers</h3>
-            <p className="text-xs text-gray-600">Comfortable and chic, perfect for both office and casual outings.</p>
+            <h3 className="text-sm font-semibold text-gray-900 mb-1">Blazers Oversize</h3>
+            <p className="text-xs text-gray-600">Confortables et chics, parfaits pour le bureau et les sorties décontractées.</p>
           </div>
           <div>
-            <h3 className="text-sm font-semibold text-gray-900 mb-1">Wide-Leg Trousers</h3>
-            <p className="text-xs text-gray-600">Comfortable, flattering, and effortlessly stylish for everyday wear.</p>
+            <h3 className="text-sm font-semibold text-gray-900 mb-1">Pantalons à Jambes Larges</h3>
+            <p className="text-xs text-gray-600">Confortables, flatteurs et élégants sans effort pour un usage quotidien.</p>
           </div>
           <div>
-            <h3 className="text-sm font-semibold text-gray-900 mb-1">Cargo Pants</h3>
-            <p className="text-xs text-gray-600">Making a major comeback with modern, tailored fits and neutral colors.</p>
+            <h3 className="text-sm font-semibold text-gray-900 mb-1">Pantalons Cargo</h3>
+            <p className="text-xs text-gray-600">Faisant un retour majeur avec des coupes modernes et sur mesure et des couleurs neutres.</p>
           </div>
           <div>
-            <h3 className="text-sm font-semibold text-gray-900 mb-1">Cropped Cardigans</h3>
-            <p className="text-xs text-gray-600">Perfect layering piece that adds texture and warmth to any outfit.</p>
+            <h3 className="text-sm font-semibold text-gray-900 mb-1">Cardigans Coupés</h3>
+            <p className="text-xs text-gray-600">Pièce de superposition parfaite qui ajoute de la texture et de la chaleur à toute tenue.</p>
           </div>
           <div>
-            <h3 className="text-sm font-semibold text-gray-900 mb-1">Midi Skirts</h3>
-            <p className="text-xs text-gray-600">Versatile length that works for both professional and casual settings.</p>
+            <h3 className="text-sm font-semibold text-gray-900 mb-1">Jupes Midi</h3>
+            <p className="text-xs text-gray-600">Longueur polyvalente qui fonctionne pour les environnements professionnels et décontractés.</p>
           </div>
         </div>
       </section>
-
-      {/* Newsletter */}
-      {/* <section className="bg-gradient-to-br from-gray-50 to-gray-100 p-6 rounded-lg border border-gray-200">
-        <h2 className="text-xl font-serif font-bold text-gray-900 mb-4 uppercase tracking-wide">
-          Subscribe Our Newsletter
-        </h2>
-        <p className="text-sm text-gray-600 mb-4">
-          Get the latest fashion trends and style tips delivered to your inbox.
-        </p>
-        <form className="space-y-3">
-          <input
-            type="email"
-            placeholder="Enter your email"
-            className="w-full px-4 py-2.5 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-gray-900 focus:border-transparent text-sm"
-          />
-          <button
-            type="submit"
-            className="w-full bg-gray-900 text-white py-2.5 px-4 rounded-md hover:bg-gray-800 transition-colors font-medium text-sm uppercase tracking-wide"
-          >
-            Subscribe
-          </button>
-        </form>
-      </section> */}
     </aside>
   );
 }
-

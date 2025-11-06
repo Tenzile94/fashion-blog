@@ -13,17 +13,17 @@ export default function Header() {
           {/* Logo */}
           <Link href="/" className="flex-shrink-0">
             <h1 className="text-2xl md:text-3xl font-serif font-bold text-gray-900 tracking-tight">
-              yourfashionstyleguide
+              YourFashionGuide
             </h1>
           </Link>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
             <Link href="/" className="text-sm font-medium text-gray-700 hover:text-gray-900 transition-colors">
-              HOME
+              ACCUEIL
             </Link>
             <Link href="/about" className="text-sm font-medium text-gray-700 hover:text-gray-900 transition-colors">
-              ABOUT
+              À PROPOS
             </Link>
           </nav>
 
@@ -44,8 +44,8 @@ export default function Header() {
         {isMenuOpen && (
           <nav className="md:hidden py-4 border-t border-gray-200">
             <div className="flex flex-col space-y-3">
-              <Link href="/" className="text-sm font-medium text-gray-700 hover:text-gray-900">HOME</Link>
-              <Link href="/about" className="text-sm font-medium text-gray-700 hover:text-gray-900">ABOUT</Link>
+              <Link href="/" className="text-sm font-medium text-gray-700 hover:text-gray-900">ACCUEIL</Link>
+              <Link href="/about" className="text-sm font-medium text-gray-700 hover:text-gray-900">À PROPOS</Link>
             </div>
           </nav>
         )}

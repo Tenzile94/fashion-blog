@@ -7,9 +7,9 @@ import { useState } from 'react';
 const heroPosts = [
   {
     id: 1,
-    category: "FASHION",
-    title: "How to unlock creativity & make something useful?",
-    date: "FEB 12, 2025",
+    category: "MODE",
+    title: "Comment libérer la créativité et créer quelque chose d'utile ?",
+    date: "12 FÉV 2025",
     author: "Lora Mariane",
     image: "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=1200&h=600&fit=crop",
     slug: "unlock-creativity-fashion"
@@ -17,17 +17,17 @@ const heroPosts = [
   {
     id: 2,
     category: "STYLE",
-    title: "The art of mixing patterns and textures",
-    date: "FEB 10, 2025",
+    title: "L'art de mélanger les motifs et les textures",
+    date: "10 FÉV 2025",
     author: "Sarah Johnson",
     image: "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=1200&h=600&fit=crop",
     slug: "mixing-patterns-textures"
   },
   {
     id: 3,
-    category: "TRENDS",
-    title: "Sustainable fashion: The future of style",
-    date: "FEB 8, 2025",
+    category: "TENDANCES",
+    title: "Mode durable : L'avenir du style",
+    date: "8 FÉV 2025",
     author: "Emma Wilson",
     image: "https://images.unsplash.com/photo-1483985988355-763728e1935b?w=1200&h=600&fit=crop",
     slug: "sustainable-fashion-future"
@@ -70,7 +70,7 @@ export default function HeroSection() {
               </h1>
             </Link>
             <p className="text-white text-sm md:text-base opacity-90">
-              {currentPost.date} | BY {currentPost.author.toUpperCase()}
+              {currentPost.date} | PAR {currentPost.author.toUpperCase()}
             </p>
           </div>
         </div>
@@ -80,7 +80,7 @@ export default function HeroSection() {
       <button
         onClick={prevSlide}
         className="absolute left-4 top-1/2 -translate-y-1/2 bg-white/20 hover:bg-white/30 backdrop-blur-sm p-3 rounded-full transition-all"
-        aria-label="Previous slide"
+        aria-label="Diapositive précédente"
       >
         <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
@@ -89,7 +89,7 @@ export default function HeroSection() {
       <button
         onClick={nextSlide}
         className="absolute right-4 top-1/2 -translate-y-1/2 bg-white/20 hover:bg-white/30 backdrop-blur-sm p-3 rounded-full transition-all"
-        aria-label="Next slide"
+        aria-label="Diapositive suivante"
       >
         <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -105,11 +105,10 @@ export default function HeroSection() {
             className={`w-2 h-2 rounded-full transition-all ${
               index === currentIndex ? 'bg-white w-8' : 'bg-white/50'
             }`}
-            aria-label={`Go to slide ${index + 1}`}
+            aria-label={`Aller à la diapositive ${index + 1}`}
           />
         ))}
       </div>
     </div>
   );
 }
-
